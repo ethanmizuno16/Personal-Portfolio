@@ -1,29 +1,38 @@
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import Bio from "./components/Bio";
-import Technologies from "./components/Technologies";
-import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+import Home from "./components/Home"
+
+import UWMedicine from "./projects/UWMedicine"
+import BaseballClutch from "./projects/Baseballclutch";
+
+import About from "./components/About";
+import Resume from "./components/Resume";
+
+
 
 const App = () => {
   return (
-    <div className="overflow-x-hidden text-neutral-300 antialiased
-    selection: bg-black-300 selection:text-cyan-900">
-    <div className="fixed top-0 -z-10 h-full w-full">
-    <div className="absolute inset-0 -z-10 h-full w-full items-center px-5 py-24 [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)]"></div>
-    </div>
+    <Router>
+      <div className="overflow-x-hidden text-neutral-300 antialiased
+      selection: bg-black-300 selection:text-cyan-900">
+        <div className="fixed top-0 -z-10 h-full w-full">
+          <div class="absolute top-0 z-[-2] h-screen w-screen bg-white bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div>
+      </div>
+      <Navbar />
 
-       <div className="container mx-auto px-8">
-       <Navbar />
-       <Hero />
-       <Bio />
-       <Technologies />
-       <Experience />
-       <Projects />
-       <Contact />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/resume" element={<Resume />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/projects/uwmedicine" element={<UWMedicine />} />
+        <Route path="/projects/baseballclutch" element={<BaseballClutch />} />
+       </Routes>
        </div>
-    </div>
+    </Router>
   );
 };
 

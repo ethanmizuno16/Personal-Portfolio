@@ -10,7 +10,7 @@ export const ABOUT_TEXT = `My name is Ethan Mizuno. I am 23 years old and grew u
  in software testing and development by working with SBML and Tellurium. Additionally, I was fortunate enough to volunteer
  at Swedish Medical Center under the Cope Health Scholars program where I gained first hand experience in patient care
  while working with other medical professionals. As I look forward, I am taking a gap year before applying to medical school
- andseeking enriching opportunities to gain additional hands-on experience in healthcare settings, further solidifying my
+ and seeking enriching opportunities to gain additional hands-on experience in healthcare settings, further solidifying my
  commitment to a career in medicine while applying my unique skill set to improve patient care and medical
  research.`;
 

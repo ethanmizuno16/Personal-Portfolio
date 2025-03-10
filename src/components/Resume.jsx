@@ -1,12 +1,15 @@
 import Experience from "./Experience";
 import Technologies from "./Technologies";
+import Education from "./Education";
 
 const Resume = () => {
   return (
-    <div className="container mx-auto px-8">
+    <div className="container mx-auto px-8 overflow-hidden">
+          <div className="flex flex-col items-center"></div>
       <Experience />
+      <Education />
       <Technologies />
-      <div className="text-center mt-10">
+      <div className="text-center my-20">
         <a
           href="/Ethan Mizuno Resume January 2025.pdf"
           target="_blank"

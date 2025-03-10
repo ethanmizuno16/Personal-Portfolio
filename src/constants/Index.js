@@ -33,6 +33,24 @@ export const EXPERIENCES = [
   },
 ];
 
+export const EDUCATION = [
+  {
+    year: "2020 - 2024",
+    degree: "Bachelor of Science in Bioengineering",
+    school: "University of Washington",
+    gpa: "3.70",
+    description: `Graduated with a focus in Data Science. Completed coursework in
+                  engineering core classes, computer science, and pre-med requisites. Member of Phi Delta Theta WA Alpha Chapter. 2022-2023 Executive Board Fundraising Chair`
+  },
+  {
+    year: "2016 - 2020",
+    degree: "High School Diploma",
+    school: "Kingwood High School",
+    gpa: "3.95",
+    description: `Graduated top 10, honors and completed AP coursework in Calculus, Biology, Chemistry and Physics.`
+  },
+];
+
 export const PROJECTS = [
   {
     title: "Capstone Project: Remote Monitoring of Anesthesia Equipment",

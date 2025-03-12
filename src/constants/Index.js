@@ -1,6 +1,7 @@
 import Project1 from "../assets/EthanMizunoProject1.jpg"
 import Project2 from "../assets/EthanMizunoProject2.jpg"
 import Project3 from "../assets/EthanMizunoProject3.jpg"
+import uwLogo from "../assets/Washington.png"
 
 export const HERO_CONTENT = `Come check out my personal portfolio!`
 
@@ -28,7 +29,7 @@ export const EXPERIENCES = [
     role: "Undergraduate Research Assistant",
     company: "Predictive Sys-Bio Lab",
     description: `Designed and developed a comprehensive test suite to validate the reproducibility of SBMLDiagrams,
-                  ensuring the software's robust performance in biological modeling and simulation`,
+                  ensuring the software's robust performance in biological modeling and simulation.`,
     technologies: ["Python", "Tellurium", "SBMLDiagrams", "Copasi"]
   },
 ];
@@ -38,16 +39,11 @@ export const EDUCATION = [
     year: "2020 - 2024",
     degree: "Bachelor of Science in Bioengineering",
     school: "University of Washington",
+    logo: uwLogo,
     gpa: "3.70",
-    description: `Graduated with a focus in Data Science. Completed coursework in
-                  engineering core classes, computer science, and pre-med requisites. Member of Phi Delta Theta WA Alpha Chapter. 2022-2023 Executive Board Fundraising Chair`
-  },
-  {
-    year: "2016 - 2020",
-    degree: "High School Diploma",
-    school: "Kingwood High School",
-    gpa: "3.95",
-    description: `Graduated top 10, honors and completed AP coursework in Calculus, Biology, Chemistry and Physics.`
+    description: `Earned a Bachelor of Science in Bioengineering with a concentration in Data Science. 
+    Coursework covered core engineering principles, computer science, and pre-medical studies. 
+    Member of Phi Delta Theta WA Alpha Chapter, serving as the Executive Board Fundraising Chair (2022-2023)`
   },
 ];
 

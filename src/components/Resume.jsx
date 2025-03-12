@@ -4,7 +4,7 @@ import Education from "./Education";
 
 const Resume = () => {
   return (
-    <div className="container mx-auto px-8 overflow-hidden">
+    <div className="container mx-auto px-8">
           <div className="flex flex-col items-center"></div>
       <Experience />
       <Education />

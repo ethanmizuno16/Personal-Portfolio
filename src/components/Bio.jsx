@@ -4,11 +4,15 @@ import { motion } from "framer-motion";
 
 const Bio = () => {
   return (
-    <div className="border-b border-neutral-900 pb-10">
-        <h1 className="my-20 text-center text-4xl font-semibold text-gray-900">
+    <div className="border-b border-neutral-900 pb-4">
+        <motion.h2
+        whileInView={{ opacity: 1, y: 0 }}
+        initial={{ opacity: 0, y: -100 }}
+        transition={{ duration: 0.5 }}
+        className="my-20 text-center text-4xl text-gray-900">
             About 
             <span className="text-purple-500"> Me</span>
-        </h1>
+        </motion.h2>
         <div className="flex flex-wrap items-center">
             <motion.div 
             whileInView={{ opacity: 1, x: 0 }}

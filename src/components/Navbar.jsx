@@ -8,7 +8,7 @@ import { FaFacebook } from "react-icons/fa";
 
 const Navbar = () => {
     return (
-    <nav className= "mb-20 flex items-center justify-between py-6">
+    <nav className= "mb-10 flex items-center justify-between py-6">
         <div className="flex flex-shrink-0 items-center">
         <a href="/" className="ml-32 mx-2 text-xl font-bold bg-gradient-to-r from-pink-500 via-gray-700 to-purple-600 bg-clip-text text-transparent">
             Ethan Mizuno

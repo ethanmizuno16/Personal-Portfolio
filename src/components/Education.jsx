@@ -26,7 +26,7 @@ const Education = () => {
               transition={{ duration: 1 }}
               className="w-full lg:w-1/6 flex justify-center items-center"
             >
-              <img src={education.logo} alt={education.institution} className="w-20 h-20 object-contain"/>
+              <img src={education.logo} alt={education.institution} className="w-32 h-32 object-contain"/>
             </motion.div>
 
             {/* Education Details */}

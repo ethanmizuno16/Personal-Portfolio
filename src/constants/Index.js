@@ -20,16 +20,14 @@ export const EXPERIENCES = [
     year: "Jan 2024 - Present",
     role: "Full Stack Mobile App Developer",
     company: "UW Medicine",
-    description: `Crafting an innovative application designed to empower attending anesthesiologists with the capability
-                   to remotely access and visualize anesthesia monitoring data from multiple operating rooms in real-time.`,
+    description: `Developing a cutting-edge mobile application that enhances real-time communication and decision-making for anesthesiologists by providing remote access to live anesthesia monitoring data across multiple operating rooms. Leveraging React Native, Firebase, and Python, the app streamlines intraoperative workflows, improving care team coordination and response efficiency. Collaborating closely with anesthesiology staff and hospital stakeholders, I am focused on optimizing data visualization, system performance, and seamless hospital integration to drive measurable improvements in clinical outcomes.`,
     technologies: ["Javascript", "React.js", "Python", "Expo Go", "HTML", "CSS", "Firebase"],
   },
   {
     year: "June 2023 - June 2024",
     role: "Undergraduate Research Assistant",
     company: "Predictive Sys-Bio Lab",
-    description: `Designed and developed a comprehensive test suite to validate the reproducibility of SBMLDiagrams,
-                  ensuring the software's robust performance in biological modeling and simulation.`,
+    description: `Designed and developed a robust testing framework to ensure the accuracy and reproducibility of SBMLDiagrams in biological modeling and simulation. By leveraging Python and the SBMLDiagrams API, improved software reliability through comprehensive debugging and performance optimization. Increased cross-platform compatibility by 20%, enabling seamless integration with tools like Copasi and enhancing the overall user experience for computational biologists.`,
     technologies: ["Python", "Tellurium", "SBMLDiagrams", "Copasi"]
   },
 ];
@@ -51,7 +49,7 @@ export const PROJECTS = [
   {
     title: "Capstone Project: Remote Monitoring of Anesthesia Equipment",
     image: Project1,
-    description: "This advanced tool facilitates swift communication within the anesthesiology team enhancing collaboration and significantly improving clinical outcomes.",
+    description: "This mobile application enhances real-time communication within the anesthesiology team, improving coordination and clinical efficiency in surgical settings. By providing live updates on patient vitals, procedure progress, and urgent notifications, the app streamlines decision-making and ensures rapid response to critical events.",
     technologies: ["Javascript", "React.js", "Python", "Expo Go", "HTML", "CSS", "Firebase"],
     link: "/projects/uwmedicine",
   },

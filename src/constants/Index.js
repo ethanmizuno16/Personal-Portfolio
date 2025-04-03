@@ -65,6 +65,7 @@ export const PROJECTS = [
     image: Project3,
     description: "This project is centered around understanding the impacts of human-induced climate change, using indicators spanning across multiple fields to recognize the unique global effects that rising temperatures caused by greenhouse gas emissions (GHGs) have on the global environment.",
     technologies: ["Javascript"],
+    link: "/projects/climate",
   },
 ];
 

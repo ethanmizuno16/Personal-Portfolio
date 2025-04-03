@@ -2,11 +2,11 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
-import Contact from "./components/Contact";
 import Home from "./components/Home"
 
 import UWMedicine from "./projects/UWMedicine"
 import BaseballClutch from "./projects/Baseballclutch";
+import Climate from "./projects/climate";
 
 import About from "./components/About";
 import Resume from "./components/Resume";
@@ -30,6 +30,7 @@ const App = () => {
         <Route path="/projects" element={<Projects />} />
         <Route path="/projects/uwmedicine" element={<UWMedicine />} />
         <Route path="/projects/baseballclutch" element={<BaseballClutch />} />
+        <Route path="/projects/climate" element={<Climate />} />
        </Routes>
        </div>
     </Router>

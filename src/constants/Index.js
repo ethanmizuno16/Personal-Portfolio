@@ -17,7 +17,7 @@ export const ABOUT_TEXT = `My name is Ethan Mizuno. I am 23 years old and grew u
 
 export const EXPERIENCES = [
   {
-    year: "Jan 2024 - Present",
+    year: "Jan 2024 - Jan 2025",
     role: "Full Stack Mobile App Developer",
     company: "UW Medicine",
     description: `Developing a cutting-edge mobile application that enhances real-time communication and decision-making for anesthesiologists by providing remote access to live anesthesia monitoring data across multiple operating rooms. Leveraging React Native, Firebase, and Python, the app streamlines intraoperative workflows, improving care team coordination and response efficiency. Collaborating closely with anesthesiology staff and hospital stakeholders, I am focused on optimizing data visualization, system performance, and seamless hospital integration to drive measurable improvements in clinical outcomes.`,

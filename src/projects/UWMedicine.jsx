@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import homePage from "../assets/SwissArmyDocHomePage.png";
 
 const UWMedicine = () => {
   return (
@@ -39,15 +38,29 @@ const UWMedicine = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, delay: 0.2 }}
       >
-        <strong>Swiss Army Doc</strong> is an innovative mobile application designed to improve communication and task coordination within 
-        anesthesiology teams. Developed as a proof-of-concept, the app serves as a <strong>centralized hub</strong> for managing 
+        **Swiss Army Doc** is an innovative mobile application designed to improve communication and task coordination within 
+        anesthesiology teams. Developed as a proof-of-concept, the app serves as a **centralized hub** for managing 
         clinical logistics, optimizing workflow, and improving intraoperative efficiency across various hospital settings.  
-        By streamlining <strong>real-time data tracking and communication</strong>, the platform enhances collaboration among anesthesiologists, 
+        By streamlining **real-time data tracking and communication**, the platform enhances collaboration among anesthesiologists, 
         residents, CRNAs, and anesthesia technicians.
       </motion.p>
 
+      {/* Project Image */}
+      <motion.div
+        className="mt-8 flex justify-center"
+        initial={{ opacity: 0, scale: 0.9 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 1 }}
+      >
+        <img
+          src="/images/uwmedicine.png"
+          alt="Swiss Army Doc App"
+          className="w-full max-w-lg rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300"
+        />
+      </motion.div>
+
       {/* Technologies Used */}
-      <div className="mt-10">
+      <div className="mt-8">
         <h2 className="text-2xl font-semibold text-gray-900 text-center">Technologies Used</h2>
         <div className="flex flex-wrap justify-center mt-4">
           {["React Native", "Firebase Firestore", "Expo", "GitHub Pages"].map((tech) => (
@@ -60,62 +73,6 @@ const UWMedicine = () => {
           ))}
         </div>
       </div>
-
-      {/* Features Section */}
-<div className="mt-16">
-  <h2 className="text-2xl font-semibold text-gray-900 text-center mb-10">Features</h2>
-
-  {/* Feature Block 1 */}
-  <div className="mb-12 flex flex-col lg:flex-row items-center gap-8">
-    {/* Image */}
-    <img
-      src="/assets/feature-1.png"
-      alt="Feature 1"
-      className="w-full max-w-md rounded-lg shadow-lg"
-    />
-    {/* Text */}
-    <div className="text-center lg:text-left">
-      <h3 className="text-xl font-bold text-gray-900 mb-2">Feature Title 1</h3>
-      <p className="text-gray-700">
-        Description placeholder for this feature. Update this text to describe the feature functionality.
-      </p>
-    </div>
-  </div>
-
-  {/* Feature Block 2 */}
-  <div className="mb-12 flex flex-col lg:flex-row-reverse items-center gap-8">
-    {/* Image */}
-    <img
-      src="/assets/feature-2.png"
-      alt="Feature 2"
-      className="w-full max-w-md rounded-lg shadow-lg"
-    />
-    {/* Text */}
-    <div className="text-center lg:text-left">
-      <h3 className="text-xl font-bold text-gray-900 mb-2">Feature Title 2</h3>
-      <p className="text-gray-700">
-        Description placeholder for this feature. Update this text to describe the feature functionality.
-      </p>
-    </div>
-  </div>
-
-  {/* Feature Block 3 */}
-  <div className="mb-12 flex flex-col lg:flex-row items-center gap-8">
-    {/* Image */}
-    <img
-      src="/assets/feature-3.png"
-      alt="Feature 3"
-      className="w-full max-w-md rounded-lg shadow-lg"
-    />
-    {/* Text */}
-    <div className="text-center lg:text-left">
-      <h3 className="text-xl font-bold text-gray-900 mb-2">Feature Title 3</h3>
-      <p className="text-gray-700">
-        Description placeholder for this feature. Update this text to describe the feature functionality.
-      </p>
-    </div>
-  </div>
-</div>
 
       {/* Feedback & Results */}
       <div className="mt-10">
@@ -147,30 +104,7 @@ const UWMedicine = () => {
           </video>
         </div>
       </div>
-
-      {/* Project Resources */}
-      <div className="mt-10">
-        <h2 className="text-2xl font-semibold text-gray-900 text-center">Project Resources</h2>
-        <div className="mt-4 flex flex-col items-center">
-          <a
-            href="/documents/STA Poster.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-600 hover:underline text-lg font-medium"
-          >
-            📄 View Project Poster
-          </a>
-          <a
-            href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-green-600 hover:underline text-lg font-medium mt-3"
-          >
-            ▶️ Watch Full Demo
-          </a>
-        </div>
       </div>
-    </div>
   );
 };
 
